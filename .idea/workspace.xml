@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ad30638-ead2-4b01-9ec6-51baa52238cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,25 @@
     <property name="settings.editor.selected.configurable" value="go.vgo" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="go build github.com/tamalsaha/gcs-version-demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gcs-version-demo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <envs>
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="$USER_HOME$/AppsCode/credentials/tamalsaha@appscode-testing.json" />
+      </envs>
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="github.com/tamalsaha/gcs-version-demo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/tamalsaha/gcs-version-demo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -40,6 +60,14 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598680636111">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1598680636111" />
+    <state x="833" y="311" width="309" height="482" key="EnvironmentVariablesDialog" timestamp="1598680632814">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="833" y="311" width="309" height="482" key="EnvironmentVariablesDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1598680632814" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1598680352945">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

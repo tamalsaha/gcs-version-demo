@@ -17,7 +17,7 @@ func main() {
 		log.Fatal(err)
 	}
 	// Read the object1 from bucket.
-	rc, err := client.Bucket("bucket").Object("object1").NewReader(ctx)
+	rc, err := client.Bucket("gcs-version-demo").Object("license.txt").NewReader(ctx)
 	if err != nil {
 		log.Fatal(err)
 	}
