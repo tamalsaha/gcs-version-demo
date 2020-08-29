@@ -17,7 +17,9 @@ func main() {
 		log.Fatal(err)
 	}
 	// Read the object1 from bucket.
-	rc, err := client.Bucket("gcs-version-demo").Object("license.txt").NewReader(ctx)
+	bucketName := "gcs-version-demo"
+	filename := "license.txt"
+	rc, err := client.Bucket(bucketName).Object(filename).NewReader(ctx)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -27,4 +29,15 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println(string(body))
+
+
+	w := client.Bucket(bucketName).Object(filename).NewWriter(ctx)
+	defer w.Close()
+	w.Write()
+	body, err := ioutil.ReadAll(rc)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println(string(body))
+
 }
